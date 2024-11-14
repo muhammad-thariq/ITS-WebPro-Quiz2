@@ -13,16 +13,16 @@
                     <div class="flex">
                         <!-- Logo -->
                         <div class="shrink-0 flex items-center">
-                            <a href="">
-                                <div>
-                                    <img src="bit.png" alt="no image" class="h-9">
-                                </div>
-                            </a>
-                            <a href="">
+                            
+                            <div>
+                                <img src="bit.png" alt="no image" class="h-9">
+                            </div>
+                            
+                            
                                 <p class="ml-0.5 font-extrabold">
                                     Store.
                                 </p>
-                            </a>
+                            
                         </div>
                     </div>
                 </div>
