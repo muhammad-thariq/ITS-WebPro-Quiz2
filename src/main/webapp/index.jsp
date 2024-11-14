@@ -10,21 +10,22 @@
         <nav class="bg-white relative z-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between h-16">
+
                     <div class="flex">
                         <!-- Logo -->
-                        <div class="shrink-0 flex items-center">
-                            
-                            <div>
-                                <img src="bit.png" alt="no image" class="h-9">
-                            </div>
-                            
-                            
+                        <a href="index.jsp">
+                            <div class="shrink-0 flex items-center mt-4">
+                                <div>
+                                    <img src="bit.png" alt="no image" class="h-9">
+                                </div>
+                                
                                 <p class="ml-0.5 font-extrabold">
                                     Store.
                                 </p>
-                            
-                        </div>
+                            </div>
+                        </a>
                     </div>
+
                 </div>
             </div>
         </nav>
@@ -63,9 +64,9 @@
                     <a href="" class="bg-white px-10 py-2 rounded-md font-semibold hover:bg-black hover:text-white hover:outline-none hover:ring-2 hover:ring-white hover:ring-offset-2 transition ease-in-out duration-150 w-full md:w-auto text-center">
                         Export List as Excel
                     </a>
-                    <a href="" class="w-full md:w-auto">
+                    <a href="create.jsp" class="w-full md:w-auto">
                         <button class="bg-white px-10 py-2 rounded-md font-semibold hover:bg-black hover:text-white hover:outline-none hover:ring-2 hover:ring-white hover:ring-offset-2 transition ease-in-out duration-150 w-full md:w-auto text-center">
-                            + Add
+                            + Create
                         </button>
                     </a>
                 </div>
@@ -85,7 +86,7 @@
                                 product.Price
                             </p>
                         </div>
-                        <a href="">
+                        <a href="edit.jsp">
                             <button class="bg-white px-10 py-2 w-full rounded-md font-semibold my-4 hover:bg-black hover:text-white  hover:outline-none hover:ring-2 hover:ring-white hover:ring-offset-2 transition ease-in-out duration-150">
                                 Edit
                             </button>

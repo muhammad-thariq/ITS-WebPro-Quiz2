@@ -38,7 +38,7 @@
         <!-- Content -->
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 pt-8 pb-2 mt-8 px-4">
             <div class="flex mt-6 justify-between items-center">
-                <h2 class="font-semibold text-xl text-white">Edit Product</h2>
+                <h2 class="font-semibold text-xl text-white">Create Product</h2>
                 <!-- Delete Product Partial (This would need to be handled separately) -->
             </div>
 
@@ -53,19 +53,19 @@
 
                     <div class="w-full sm:w-1/2">
                         <div class="mt-4">
-                            <p class="text-white">Edit Photo</p>
+                            <p class="text-white">Create Photo</p>
                             <input type="file" id="Photo" class="block mt-4 w-full border p-2 bg-white rounded-md" accept="image/*" name="Photo" onchange="updateImage(event)">
                             
                         </div>
 
                         <div class="mt-4">
-                            <p class="text-white">Edit Name</p>
+                            <p class="text-white">Create Name</p>
                             <input id="Name" class="block p-2 mt-4 w-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm" type="text" name="Name" value="" required>
                             <
                         </div>
 
                         <div class="mb-4">
-                            <p class="text-white">Edit Price</p>
+                            <p class="text-white">Create Price</p>
                             <input id="Price" class="block p-2 mt-4 w-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm" type="text" name="Price" value="" required>
                             
                         </div>

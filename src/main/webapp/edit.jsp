@@ -11,19 +11,22 @@
         <nav class="bg-white relative z-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between h-16">
+
                     <div class="flex">
                         <!-- Logo -->
-                        <div class="shrink-0 flex items-center">
-                            <a href="">
+                        <a href="index.jsp">
+                            <div class="shrink-0 flex items-center mt-4">
                                 <div>
                                     <img src="bit.png" alt="no image" class="h-9">
                                 </div>
-                            </a>
-                            <a href="">
-                                <p class="ml-0.5 font-extrabold">Store.</p>
-                            </a>
-                        </div>
+                                
+                                <p class="ml-0.5 font-extrabold">
+                                    Store.
+                                </p>
+                            </div>
+                        </a>
                     </div>
+
                 </div>
             </div>
         </nav>
