@@ -18,18 +18,18 @@
 	<!-- Navbar -->
 	<nav class="bg-white relative z-50">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="flex justify-between h-16">
+			<div class="flex justify-center h-16">
 
 				<div class="flex">
 					<!-- Logo -->
 					<a href="index.jsp">
 						<div class="shrink-0 flex items-center mt-4">
 							<div>
-								<img src="bit.png" alt="no image" class="h-9">
+								<img src="bit.png" alt="no image" class="h-18">
 							</div>
 							
 							<p class="ml-0.5 font-extrabold">
-								Store.
+								Student Database.
 							</p>
 						</div>
 					</a>
@@ -68,7 +68,7 @@
 					</div>
 				</div>
 				<div class="form-group row">
-					<label for="lastName" class="col-2 col-form-label">Last Name</label>
+					<label for="lastName" class="col-2 col-form-label">Major</label>
 					<div class="col-10">
 						<input class="form-control" type="text" name="lastName"
 							value="<c:out value="${student.lastName}"/>" id="lastName"
